@@ -1,0 +1,21 @@
+[user]
+        name = mnpk
+        email = mnpk@neople.co.kr
+[alias]
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  br = branch
+  co = checkout
+  last = log -n1 --stat
+        d = difftool
+        st = status
+[color]
+        status = auto
+        ui = true
+[diff]
+        tool = vimdiff
+        toll = vimdiff
+[difftool]
+        prompt = false
+[core]
+        editor = vim
+
